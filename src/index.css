@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://db.onlinewebfonts.com/c/2aea0ac500c896188f9ad191c231029c?family=Orpheus+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "Orpheus Pro";
+    src: url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.eot");
+    src: url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2aea0ac500c896188f9ad191c231029c.svg#Orpheus Pro")format("svg");
+}
+ /* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+body,
+p,
+a,
+button,
+span,
+nav{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
+}
+body {
+  margin: 0;
+}
+/* body,
+p,
+a,
+button,
+span,
+nav {
+  font-family: 'poppins'
+} */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Orpheus Pro";
+}
+
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
